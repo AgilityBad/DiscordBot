@@ -120,13 +120,13 @@ async def send_data1(ctx4, *, b64):
 @client.command(name='geo')
 async def send_data4(ctx5, *, z):
     xd = requests.get(f"https://ipinfo.io/{z}?token=8d3562ef3bd184")
-    poop = xd.json()['city']
-    poop1 = xd.json()['region']
-    poop2 = xd.json()['country']
-    poop3 = xd.json()['postal']
-    poop4 = xd.json()['hostname']
-    poop5 = xd.json()['org']
-    poop6 = xd.json()['timezone']
+    Agility = xd.json()['city']
+    Agility1 = xd.json()['region']
+    Agility2 = xd.json()['country']
+    Agility3 = xd.json()['postal']
+    Agility4 = xd.json()['hostname']
+    Agility5 = xd.json()['org']
+    Agility6 = xd.json()['timezone']
     await ctx5.send(
         f"**LOCATION** : {poop}, {poop1}, {poop2}, {poop3} \n**ISP** : {poop4} \n**ORG** : {poop5} \n**TIMEZONE** {poop6}")
 
