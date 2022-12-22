@@ -1,13 +1,13 @@
 # DiscordBot
-A discord bot made to easily check discord tokens for payment and check if a player is online. 
+A discord bot made to easily check discord tokens for payment, check all needed info on a player, base 64 decrypt, and geo locate any ip address.
 
 
-Example: https://media.discordapp.net/attachments/1002769693544824854/1055397648707899413/image.png?width=369&height=511
+Examples:
+https://media.discordapp.net/attachments/1002769693544824854/1055397648707899413/image.png?width=369&height=511 -!mc (ign)
 
+https://media.discordapp.net/attachments/1002769693544824854/1055397648707899413/image.png?width=369&height=511 - !token (discord token)
 
-
-
-token example: https://media.discordapp.net/attachments/1002769693544824854/1055397954850140230/image.png?width=1093&height=182
+https://media.discordapp.net/attachments/1002769693544824854/1055618984327774339/image.png?width=352&height=98 - !geo (ip address)
 
 
 Commands: 
