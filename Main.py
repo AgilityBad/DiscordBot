@@ -1,12 +1,12 @@
 import discord
 from discord.ext import commands
 import requests
-
+import base64
 #thanks for the help fmh (freemoneyhub)
 
 intents=discord.Intents.all()
 client = commands.Bot(command_prefix='!', intents=intents)
-TOKEN ="BOT TOKEN GOES HERE"
+TOKEN ="MTA1NTMxNTA5OTYzMzU4MjA4MA.G_xEhJ.SW7bjez-avYVFim1iXSRvUQzv0m0xY7nSvRv6I"
 hypixel_api_key = "1e91ea2b-4cc6-44c0-8b23-fd6e21bf6d03" #make sure to update this
 uslessa2= int(99999999999)
 
@@ -105,9 +105,11 @@ async def send_data3(penis, *, taken):
     else:
       await penis.send(r2.text)
 
-              
+@client.command(name='base64')
+async def send_data1(ctx4, *, b64):
+  data = base64.b64decode(b64)
+  await ctx4.send(data)
       
-        
       
     
           
