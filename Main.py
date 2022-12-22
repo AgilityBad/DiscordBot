@@ -6,8 +6,8 @@ import base64
 
 intents=discord.Intents.all()
 client = commands.Bot(command_prefix='!', intents=intents)
-TOKEN ="MTA1NTMxNTA5OTYzMzU4MjA4MA.G_xEhJ.SW7bjez-avYVFim1iXSRvUQzv0m0xY7nSvRv6I"
-hypixel_api_key = "1e91ea2b-4cc6-44c0-8b23-fd6e21bf6d03" #make sure to update this
+TOKEN ="BOT TOKEN HERE"
+hypixel_api_key = "1e91ea2b-4cc6-44c0-8b23-fd6e21bf6d03" #make sure to update this (hypixel api key /api new)
 uslessa2= int(99999999999)
 
 #when loaded
