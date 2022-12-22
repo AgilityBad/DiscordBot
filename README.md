@@ -17,3 +17,11 @@ cd to the directory of the file.
 pip intsall -r requirements.txt
 paste in required discord bot token and hypixel api. 
 enjoy
+
+Commands: 
+
+!help - all commands lists
+!mc (ign) - spits out all needed data for logging into sessions.
+!token (discord token) - spits out all info of token.
+!base64 - decrypts anything in base64.
+!geo (ip address) - will auto geo locate the persons ip.
